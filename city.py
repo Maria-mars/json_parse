@@ -33,3 +33,4 @@ while city_item is not None:
     city_item = city_item.next_sibling
 jsonList = json.dumps(final_list, ensure_ascii=False)
 print(jsonList)
+
